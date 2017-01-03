@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="bb"
+           fetch="https://bitbucket.org/" />
+<!--Angler-->
+  <project name="drgroovestarr/device_huawei_angler" path="device/huawei/angler" remote="github" revision="n7.1r" />
+  <project name="Flash-Kernel/angler" path="kernel/huawei/angler" remote="github" revision="personal-7.1.1" />
+  <!--project name="drgroovestarr/megatron_kernel_angler" path="kernel/huawei/angler" remote="github" revision="n7.1" /-->
+  <project name="drgroovestarr/vendor_angler" path="vendor/huawei" remote="github" revision="n7.1" />
+<!--G2-->
+  <project name="drgroovestarr/device_lge_d800" path="device/lge/d800" remote="github" revision="n7.1r" />
+  <project name="drgroovestarr/device_lge_vs980" path="device/lge/vs980" remote="github" revision="n7.1r" />
+  <project name="drgroovestarr/device_lge_ls980" path="device/lge/ls980" remote="github" revision="n7.1r" />
+  <project name="drgroovestarr/device_lge_d802" path="device/lge/d802" remote="github" revision="n7.1r" />
+  <project name="drgroovestarr/device_lge_d801" path="device/lge/d801" remote="github" revision="n7.1r" />
+  <project name="drgroovestarr/device_lge_g2-common" path="device/lge/g2-common" remote="github" revision="n7.1" />
+  <project name="drgroovestarr/vendor_lge" path="vendor/lge" remote="github" revision="n7.1" />
+  <project name="drgroovestarr/vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="n7.1" />
+  <project name="LineageOS/android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="cm-14.1" />
+  <!--project name="GalaticStryder/kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="nougat-caf" /-->
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1" />
+<!--Common-->
+  <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="github" revision="n" />
+  <project name="drgroovestarr/packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="msm8994" />
+  
+<!--Toolchains-->
+  <project name="mdalexca/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="master" />
+  <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" revision="master" />
+  <project name="mdalexca/aarch64-linux-android-6.x" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" remote="bb" revision="master" />
+  <project name="mdalexca/sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="bb" revision="master" />
+  <!--remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" /-->
+  <!--remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" /-->
+  <!--project name="mdalexca/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bb" revision="master"/-->
+  <!--project name="mdalexca/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="bb" revision="master" /-->
+  <!--project name="mdalexca/aarch64-linux-android-4.9-kernel" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" /-->
+
+</manifest>
