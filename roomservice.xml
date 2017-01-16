@@ -6,5 +6,5 @@
   <project name="drgroovestarr/device_lge_bullhead" path="device/lge/bullhead" remote="gitlab" revision="android-7.1.1_r4" />
   <project name="flar2/bullhead" path="kernel/lge/bullhead" remote="github" revision="ElementalX-4.00" />
   <project name="drgroovestarr/vendor_lge" path="vendor/lge" remote="github" revision="nmf26f" />
-  <project name="DespairFactor/sdclang-3.8" path="prebuilts/clang/host/linux-x86/sdclang-3.8" remote="bb" revision="master" />
+  <project name="drgroovestarr/sdclang-3.8" path="prebuilts/clang/host/linux-x86/sdclang-3.8" remote="gitlab" revision="master" />
 </manifest>
