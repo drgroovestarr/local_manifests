@@ -28,7 +28,7 @@
   <project name="DespairFactor/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="master" />
   <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" revision="master" />
   <project name="drgroovestarr/aarch64-linux-android-6.3" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.3" remote="bb" revision="master" />
-  <project name="drgroovestarr/sdclang-3.8" path="prebuilts/clang/host/linux-x86/sdclang-3.8" remote="gitlab" revision="master" />
+  <project name="drgroovestarr/sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="gitlab" revision="master" />
   <!--remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" /-->
   <!--remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" /-->
   <!--project name="mdalexca/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bb" revision="master"/-->
