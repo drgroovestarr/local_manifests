@@ -22,7 +22,8 @@
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1" />
 <!--Common-->
-  <project name="drgroovestarr/packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="msm8994" />
+  <!--project name="drgroovestarr/packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="msm8994" /-->
+  <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
   
 <!--Toolchains-->
   <project name="DespairFactor/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="master" />
