@@ -11,6 +11,8 @@
 <!--Flo-->
   <project name="drgroovestarr/device_asus_flo" path="device/asus/flo" remote="github" revision="noog7.1" />
   <project name="flar2/flo" path="kernel/asus/flo" remote="github" revision="ElementalX-6.00-cm" />
+  <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-14.1" />
+  <project name="drgroovestarr/vendor_asus" path="vendor/asus" remote="github" revision="n7.1" />
 <!--G2-->
   <project name="drgroovestarr/device_lge_d800" path="device/lge/d800" remote="github" revision="noog7.1" />
   <project name="drgroovestarr/device_lge_vs980" path="device/lge/vs980" remote="github" revision="noog7.1" />
