@@ -6,4 +6,8 @@
   <!--project name="drgroovestarr/device_lge_bullhead" path="device/lge/bullhead" remote="gitlab" revision="android-7.1.2" /-->
   <!--project name="flar2/bullhead" path="kernel/lge/bullhead" remote="github" revision="ElementalX-4.00" /-->
   <!--project name="drgroovestarr/vendor_lge" path="vendor/lge" remote="github" revision="android-7.1.2" /-->
+  <project name="drgroovestarr/device_asus_flo" path="device/asus/flo" remote="gitlab" revision="android-7.1.2" />
+  <project name="flar2/flo" path="kernel/asus/flo" remote="github" revision="ElementalX-6.00-cm" />
+  <project name="drgroovestarr/vendor_asus" path="vendor/asus" remote="github" revision="android-7.1.2" />
+
 </manifest>
