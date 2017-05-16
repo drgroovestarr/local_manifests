@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- You should probably let Roomservice deal with this unless you know what you are doing. -->
 <manifest>
-  <project name="AOSPA/android_device_huawei_angler" path="device/huawei/angler" remote="aospa" revision="nougat-mr2" />
+  <project name="drgroovestarr/device_huawei_angler" path="device/huawei/angler" remote="github" revision="android-7.1.2-caf" />
   <project name="proprietary_vendor_huawei_angler" path="vendor/huawei/angler" remote="blobs" revision="nougat-mr2" />
   <project name="AOSPA/android_kernel_huawei_angler" path="kernel/huawei/angler" remote="aospa" revision="nougat-mr2" />
   <project name="AOSPA/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="aospa" revision="nougat-mr2-aosp" />
