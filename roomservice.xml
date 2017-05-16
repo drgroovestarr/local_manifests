@@ -15,6 +15,7 @@
   <!--project name="flar2/flo" path="kernel/asus/flo" remote="github" revision="ElementalX-6.00-cm" /-->
   <!--project name="drgroovestarr/vendor_asus" path="vendor/asus" remote="github" revision="android-7.1.2" /-->
   <project name="drgroovestarr/aarch64-linux-gnu-6.3" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.3" remote="bb" revision="master" />
+  <remove-project name="LineageOS/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="cm-14.1" />
   <remove-project name="android_vendor_pure" path="vendor/pure" remote="purenexus-mod" />
   <project name="android_vendor_pure" path="vendor/pure" remote="gitlab-dg" revision="n-mr2-caf" />
 </manifest>
