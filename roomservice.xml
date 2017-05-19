@@ -17,7 +17,7 @@
   <project name="drgroovestarr/aarch64-linux-gnu-6.3" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.3" remote="bb" revision="master" />
   <project name="drgroovestarr/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bb" revision="master" />
   <project name="drgroovestarr/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="uber" />
-  <project name="drgroovestarr/sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="bb" revision="master" />
+  <project name="drgroovestarr/sdclang-3.8" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="master" />
   <project name="drgroovestarr/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="bb" revision="uber" />
   <remove-project name="AOKP/system_sepolicy" path="system/sepolicy" groups="pdk" />
   <project name="drgroovestarr/system_sepolicy" path="system/sepolicy" groups="pdk" remote="gitlab" revision="n7.1.2-aokp" />
