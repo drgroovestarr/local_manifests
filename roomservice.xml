@@ -19,6 +19,11 @@
   <project name="drgroovestarr/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="uber" />
   <project name="drgroovestarr/sdclang-3.8" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="master" />
   <project name="drgroovestarr/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="bb" revision="uber" />
+<!--Modified Repos-->
+  <remove-project name="AOKP/build" path="build" groups="pdk" remote="aokp" />
+  <project path="build" name="drgroovestarr/android_build" groups="pdk" remote="gitlab" revision="n7.1.2-aokp" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <remove-project name="AOKP/system_sepolicy" path="system/sepolicy" groups="pdk" />
   <project name="drgroovestarr/system_sepolicy" path="system/sepolicy" groups="pdk" remote="gitlab" revision="n7.1.2-aokp" />
   <remove-project name="AOKP/vendor_aokp" path="vendor/aokp" />
