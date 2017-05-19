@@ -19,4 +19,9 @@
   <project name="drgroovestarr/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="uber" />
   <project name="drgroovestarr/sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="bb" revision="master" />
   <project name="drgroovestarr/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="bb" revision="uber" />
+  <remove-project name="AOKP/system_sepolicy" path="system/sepolicy" groups="pdk" />
+  <project name="drgroovestarr/system_sepolicy" path="system/sepolicy" groups="pdk" remote="gitlab" revision="n7.1.2-aokp" />
+  <remove-project name="AOKP/vendor_aokp" path="vendor/aokp" />
+  <project name="drgroovestarr/vendor_aokp" path="vendor/aokp" remote="gitlab" revision="n7.1.2-aokp" />
+
 </manifest>
