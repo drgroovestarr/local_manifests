@@ -29,7 +29,7 @@
   <project name="drgroovestarr/arm-toolchains" path="prebuilts/gcc/linux-x86/arm/arm-linaro-linux-gnueabi" remote="bb" revision="linaro" />
   <project name="drgroovestarr/aarch64-toolchains" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-linux-gnueabi" remote="bb" revision="linaro" />
   <project name="drgroovestarr/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bb" revision="master" />
-  <project name="drgroovestarr/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="uber" />
+  <project name="drgroovestarr/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="linaro" />
   <project name="drgroovestarr/sdclang-3.8" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="master" />
   <project name="drgroovestarr/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="bb" revision="aosp" />
 <!--Modified Repos-->
