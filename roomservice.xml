@@ -26,6 +26,7 @@
   <remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
   <remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="drgroovestarr/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bb" revision="aosp" />
+  <project name="drgroovestarr/arm-toolchains" path="prebuilts/gcc/linux-x86/arm/arm-linaro-linux-gnueabi" remote="bb" revision="linaro" />
   <project name="drgroovestarr/aarch64-toolchains" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-linux-gnueabi" remote="bb" revision="linaro" />
   <project name="drgroovestarr/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bb" revision="master" />
   <project name="drgroovestarr/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="uber" />
