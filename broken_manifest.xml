@@ -9,25 +9,25 @@
   <project name="nathanchance/angler" path="kernel/huawei/angler" remote="github" revision="7.1.2-flash" />
   <project name="drgroovestarr/vendor_angler" path="vendor/huawei" remote="github" revision="n7.1" />
 <!--Flo-->
-  <project name="drgroovestarr/device_asus_flo" path="device/asus/flo" remote="github" revision="noog7.1" />
-  <project name="flar2/flo" path="kernel/asus/flo" remote="github" revision="ElementalX-6.00-cm" />
-  <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-14.1" />
-  <project name="drgroovestarr/vendor_asus" path="vendor/asus" remote="github" revision="n7.1" />
+  <!--project name="drgroovestarr/device_asus_flo" path="device/asus/flo" remote="github" revision="noog7.1" /-->
+  <!--project name="flar2/flo" path="kernel/asus/flo" remote="github" revision="ElementalX-6.00-cm" /-->
+  <!--project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-14.1" /-->
+  <!--project name="drgroovestarr/vendor_asus" path="vendor/asus" remote="github" revision="n7.1" /-->
 <!--G2-->
-  <project name="drgroovestarr/device_lge_d800" path="device/lge/d800" remote="github" revision="noog7.1" />
-  <project name="drgroovestarr/device_lge_vs980" path="device/lge/vs980" remote="github" revision="noog7.1" />
-  <project name="drgroovestarr/device_lge_ls980" path="device/lge/ls980" remote="github" revision="noog7.1" />
-  <project name="drgroovestarr/device_lge_d802" path="device/lge/d802" remote="github" revision="noog7.1" />
-  <project name="drgroovestarr/device_lge_d801" path="device/lge/d801" remote="github" revision="noog7.1" />
-  <project name="drgroovestarr/device_lge_g2-common" path="device/lge/g2-common" remote="github" revision="n7.1" />
-  <project name="drgroovestarr/vendor_lge" path="vendor/lge" remote="github" revision="n7.1" />
-  <project name="drgroovestarr/vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="n7.1" />
+  <!--project name="drgroovestarr/device_lge_d800" path="device/lge/d800" remote="github" revision="noog7.1" /-->
+  <!--project name="drgroovestarr/device_lge_vs980" path="device/lge/vs980" remote="github" revision="noog7.1" /-->
+  <!--project name="drgroovestarr/device_lge_ls980" path="device/lge/ls980" remote="github" revision="noog7.1" /-->
+  <!--project name="drgroovestarr/device_lge_d802" path="device/lge/d802" remote="github" revision="noog7.1" /-->
+  <!--project name="drgroovestarr/device_lge_d801" path="device/lge/d801" remote="github" revision="noog7.1" /-->
+  <!--project name="drgroovestarr/device_lge_g2-common" path="device/lge/g2-common" remote="github" revision="n7.1" /-->
+  <!--project name="drgroovestarr/vendor_lge" path="vendor/lge" remote="github" revision="n7.1" /-->
+  <!--project name="drgroovestarr/vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="n7.1" /-->
   <!--project name="LineageOS/android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="cm-14.1" /-->
-  <project name="GalaticStryder/kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="nougat-mr1" />
+  <!--project name="GalaticStryder/kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="nougat-mr1" /-->
 <!--Marlin-TEMP-->
-  <project name="drgroovestarr/device_google_marlin" path="device/google/marlin" remote="gitlab" revision="noog7.1" />
-  <project name="flar2/marlin" path="kernel/google/marlin" remote="github" revision="ElementalX" />
-  <project name="drgroovestarr/vendor_google" path="vendor/google" remote="gitlab" revision="n7.1" />
+  <!--project name="drgroovestarr/device_google_marlin" path="device/google/marlin" remote="gitlab" revision="noog7.1" /-->
+  <!--project name="flar2/marlin" path="kernel/google/marlin" remote="github" revision="ElementalX" /-->
+  <!--project name="drgroovestarr/vendor_google" path="vendor/google" remote="gitlab" revision="n7.1" /-->
 <!--Manta-->
   <!--project name="drgroovestarr/device_samsung_manta" path="device/samsung/manta" remote="github" revision="n7.1r" /-->
   <!--project name="LineageOS/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="cm-14.1" /-->
