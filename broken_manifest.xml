@@ -53,5 +53,16 @@
   <project name="drgroovestarr/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bb" revision="master" />
   <project name="drgroovestarr/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="uber" />
   <project name="drgroovestarr/sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="bb" revision="master" />
-  
+ <!--Personal-->
+  <remove-project path="build" remote="broken" name="build" groups="pdk,tradefed" />
+  <remove-project path="device/qcom/common" remote="broken" name="device_qcom_common" />
+  <remove-project path="vendor/broken" remote="broken" name="vendor_broken" />
+  <project path="build" remote="github" branch="noog7.1" name="drgroovestarr/android_build" groups="pdk,tradefed" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="device/qcom/common" name="drgroovestarr/device_qcom_common" remote="github" branch="noog7.1" />
+  <project path="vendor/broken" remote="github" branch="noog7.1" name="drgroovestarr/vendor_broken" >
+	<copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
+  </project>
+
 </manifest>
