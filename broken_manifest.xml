@@ -57,11 +57,11 @@
   <remove-project path="build" remote="broken" name="build" groups="pdk,tradefed" />
   <remove-project path="device/qcom/common" remote="broken" name="device_qcom_common" />
   <remove-project path="vendor/broken" remote="broken" name="vendor_broken" />
-  <project path="build" remote="github" branch="noog7.1" name="drgroovestarr/android_build" groups="pdk,tradefed" >
+  <project path="build" remote="github" revision="noog7.1" name="drgroovestarr/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/qcom/common" name="drgroovestarr/device_qcom_common" remote="github" branch="noog7.1" />
-  <project path="vendor/broken" remote="github" branch="noog7.1" name="drgroovestarr/vendor_broken" >
+  <project path="device/qcom/common" name="drgroovestarr/device_qcom_common" remote="github" revision="noog7.1" />
+  <project path="vendor/broken" remote="github" revision="noog7.1" name="drgroovestarr/vendor_broken" >
 	<copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
   </project>
 
