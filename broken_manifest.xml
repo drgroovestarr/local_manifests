@@ -49,7 +49,7 @@
   <remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project name="drgroovestarr/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="bb" revision="aosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="drgroovestarr/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bb" revision="aosp" />
-  <project name="drgroovestarr/aarch64-toolchains" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-linux-gnueabi" remote="bb" revision="linaro-7.x" />
+  <project name="drgroovestarr/aarch64-toolchains" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-linux-gnu" remote="bb" revision="linaro-7.x" />
   <project name="drgroovestarr/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bb" revision="master" />
   <project name="drgroovestarr/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="uber" />
   <project name="drgroovestarr/sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="bb" revision="master" />
