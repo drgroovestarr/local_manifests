@@ -15,7 +15,7 @@
   <project name="LineageOS/android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="cm-14.1" />
 <!--Flo-->
   <project name="drgroovestarr/device_asus_flo" path="device/asus/flo" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_kernel_google_msm" path="kernel/goolge/msm" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="cm-14.1" />
   <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-14.1" />
   <project name="drgroovestarr/vendor_asus" path="vendor/asus" remote="github" revision="n7.1" />
 <!--Common-->
