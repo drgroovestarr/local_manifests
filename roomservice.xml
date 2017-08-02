@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="drgroovestarr/device_huawei_angler" path="device/huawei/angler" remote="github" revision="android-7.1.2" />
-  <project name="nathanchance/angler" path="kernel/huawei/angler" remote="github" revision="7.1.2-flash" />
-  <project name="drgroovestarr/vendor_angler" path="vendor/huawei" remote="github" revision="android-7.1.2" />
-  <project name="drgroovestarr/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="android-7.1.2" />
-  <project name="drgroovestarr/kernel_lge_bullhead" path="kernel/lge/bullhead" remote="gitlab" revision="n7.1.2" />
-  <project name="drgroovestarr/vendor_lge" path="vendor/lge" remote="github" revision="android-7.1.2" />
-  <!--project name="drgroovestarr/device_asus_flo" path="device/asus/flo" remote="github" revision="android-7.1.2" /-->
-  <!--project name="flar2/flo" path="kernel/asus/flo" remote="github" revision="ElementalX-6.00-cm" /-->
-  <!--project name="drgroovestarr/vendor_asus" path="vendor/asus" remote="github" revision="android-7.1.2" /-->
-
+  <project name="drgroovestarr/device_asus_flo" path="device/asus/flo" remote="github" revision="android-7.1.2" />
+  <project name="flar2/flo" path="kernel/asus/flo" remote="github" revision="ElementalX-6.00-cm" />
+  <project path="vendor/asus" name="Unlegacy-Android/proprietary_vendor_asus" groups="vendor,asus" remote="github" revision="aosp-7.1" />
+  <project path="vendor/broadcom" name="Unlegacy-Android/proprietary_vendor_broadcom" groups="vendor,broadcom" remote="github" revision="aosp-7.1" />
+  <project path="vendor/qcom" name="Unlegacy-Android/proprietary_vendor_qcom" groups="vendor,qcom" remote="github" revision="aosp-7.1" />
+  <project path="vendor/widevine" name="Unlegacy-Android/proprietary_vendor_widevine" groups="vendor,widevine" remote="github" revision="aosp-7.1" />
 </manifest>
