@@ -5,10 +5,15 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
   <project name="ReaperRoms/device_huawei_angler" path="device/huawei/angler" remote="github" revision="O" />
-  <project name="nathanchance/angler" path="kernel/huawei/angler" remote="github" revision="8.0.0-flash" />
+  <project name="drgroovestarr/kernel_huawei_angler" path="kernel/huawei/angler" remote="gitlab" revision="android-8.0.0" />
   <project name="ReaperRoms/vendor_huawei_angler" path="vendor/huawei" remote="github" revision="O" />
   <project name="ReaperRoms/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="O" />
   <project name="DirtyUnicorns/android_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="github" revision="o8x" />
   <project name="ReaperRoms/vendor_lge" path="vendor/lge" remote="github" revision="O" />
   <project name="drgroovestarr/aarch64-toolchains" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-linux-android" remote="bb" revision="linaro-7.x" />
+  <!--OpenGapps-->
+  <project path="vendor/opengapps/build" name="opengapps/aosp_build" remote="github" revision="master" />
+  <project path="vendor/opengapps/sources/all" name="opengapps/all" remote="github" revision="master" clone-depth="1" />
+  <project path="vendor/opengapps/sources/arm" name="opengapps/arm" remote="github" revision="master" clone-depth="1" />
+  <project path="vendor/opengapps/sources/arm64" name="opengapps/arm64" remote="github" revision="master" clone-depth="1" />
 </manifest>
