@@ -8,5 +8,9 @@
   <project name="AICP/kernel_google_marlin" path="kernel/google/marlin" remote="github" revision="o8.1" />
   <project name="AICP/proprietary_vendor_google" path="vendor/google" remote="github" revision="o8.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="staging/lineage-15.1" />
-
+  <!--OpenGapps-->
+  <project path="vendor/opengapps/build" name="opengapps/aosp_build" remote="github" revision="master" />
+  <project path="vendor/opengapps/sources/all" name="opengapps/all" remote="github" revision="master" clone-depth="1" />
+  <project path="vendor/opengapps/sources/arm" name="opengapps/arm" remote="github" revision="master" clone-depth="1" />
+  <project path="vendor/opengapps/sources/arm64" name="opengapps/arm64" remote="github" revision="master" clone-depth="1" /> 
 </manifest>
