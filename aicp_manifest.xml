@@ -5,7 +5,7 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
   <project name="drgroovestarr/device_google_marlin" path="device/google/marlin" remote="gitlab" revision="aicp-o8.1" />
-  <project name="AICP/kernel_google_marlin" path="kernel/google/marlin" remote="github" revision="o8.1" />
+  <project name="drgroovestarr/kernel_google_marlin" path="kernel/google/marlin" remote="gitlab" revision="android-8.1.0" />
   <project name="drgroovestarr/proprietary_vendor_google" path="vendor/google" remote="gitlab" revision="o8.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="staging/lineage-15.1" />
   <!--OpenGapps-->
