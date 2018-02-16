@@ -4,10 +4,9 @@
            fetch="https://bitbucket.org/" />
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
-  <project name="drgroovestarr/device_google_marlin" path="device/google/marlin" remote="gitlab" revision="aicp-o8.1" />
+  <project name="drgroovestarr/device_google_marlin" path="device/google/marlin" remote="gitlab" revision="du-o8x" />
   <project name="drgroovestarr/kernel_google_marlin" path="kernel/google/marlin" remote="gitlab" revision="android-8.1.0" />
-  <project name="drgroovestarr/proprietary_vendor_google" path="vendor/google" remote="gitlab" revision="o8.1" />
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
+  <project name="drgroovestarr/vendor_google_devices_marlin" path="vendor/google/marlin" remote="gitlab" revision="android-8.1.0" />
   <!-- Marlin Googleapps -->
   <project path="vendor/googleapps" name="drgroovestarr/vendor_googleapps" remote="gitlab" revision="android-8.1.0" />
 </manifest>
