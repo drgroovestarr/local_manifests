@@ -8,5 +8,5 @@
   <project name="drgroovestarr/kernel_google_marlin" path="kernel/google/marlin" remote="gitlab" revision="android-8.1.0" />
   <project name="drgroovestarr/vendor_google_devices_marlin" path="vendor/google_devices/marlin" remote="gitlab" revision="android-8.1.0" />
   <!-- Marlin Googleapps -->
-  <project path="vendor/googleapps" name="drgroovestarr/vendor_googleapps" remote="gitlab" revision="android-8.1.0" />
+  <project path="vendor/googleapps" name="drgroovestarr/vendor_googleapps" remote="gitlab" revision="o8x" />
 </manifest>
