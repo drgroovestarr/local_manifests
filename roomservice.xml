@@ -7,6 +7,9 @@
   <project name="drgroovestarr/device_google_marlin" path="device/google/marlin" remote="gitlab" revision="abc-android-8.1.0" />
   <project name="drgroovestarr/kernel_google_marlin" path="kernel/google/marlin" remote="gitlab" revision="android-8.1.0" />
   <project name="drgroovestarr/vendor_google_devices_marlin" path="vendor/google_devices/marlin" remote="gitlab" revision="android-8.1.0" />
+  <remove-project path="vendor/nexus" name="abc_vendor_nexus" remote="abc" revision="o2" />
+  <project path="vendor/nexus" name="drgroovestarr/abc_vendor_nexus" remote="gitlab" revision="o2" />
+
   <!-- Marlin Googleapps -->
   <project path="vendor/googleapps" name="drgroovestarr/vendor_googleapps" remote="gitlab" revision="android-8.1.0" />
 </manifest>
