@@ -1,4 +1,4 @@
 <manifest>
     <remove-project path="halium/devices" name="Halium/halium-devices" remote="hal" />
-    <project path="halium/devices" name="angler-halium/halium-devices" remote="hal" />
+    <project path="halium/devices" name="angler-halium/halium-devices" remote="hal" revision="halium-7.1-angler" />
 </manifest>
